@@ -1,13 +1,11 @@
-package com.example.retrofitforecaster
+package com.example.retainfragment
 
 import okhttp3.Interceptor
 import okhttp3.Request
 import okhttp3.Response
 import okhttp3.internal.http2.Http2Reader.Companion.logger
-import java.io.IOException
 
 class LoggingInterceptor : Interceptor {
-    @Throws(IOException::class)
     override fun intercept(chain: Interceptor.Chain): Response {
         val request: Request = chain.request()
         val t1 = System.nanoTime()

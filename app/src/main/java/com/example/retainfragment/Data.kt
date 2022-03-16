@@ -1,4 +1,4 @@
-package com.example.retrofitforecaster
+package com.example.retainfragment
 
 data class DataWeather(
     val cod: String = "",

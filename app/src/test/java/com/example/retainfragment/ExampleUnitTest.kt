@@ -1,4 +1,4 @@
-package com.example.retrofitforecaster
+package com.example.retainfragment
 
 import org.junit.Test
 

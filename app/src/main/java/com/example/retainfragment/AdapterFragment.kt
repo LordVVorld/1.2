@@ -1,11 +1,13 @@
-package com.example.retrofitforecaster
+package com.example.retainfragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 
-class RetainFragment : Fragment() {
-    private var adapter: Adapter? = null
-    public var savedAdapter: Adapter?
+class AdapterFragment : Fragment() {
+
+    private var adapter = Adapter()
+
+    var savedAdapter: Adapter
         get() {
             return adapter
         }
